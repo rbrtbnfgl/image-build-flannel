@@ -16,7 +16,7 @@ scms:
       email: "{{ .github.email }}"
       username: "{{ requiredEnv .github.username }}"
       token: '{{ requiredEnv .github.token }}'
-      owner: rancher
+      owner: rbrtbnfgl
       repository: image-build-flannel
       branch: master
   go:
